@@ -1,12 +1,65 @@
-# React + Vite
+# RandomChat
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern, responsive chat application built with React and Vite.
 
-Currently, two official plugins are available:
+## Features
+- Real-time chat UI
+- User sidebar with search
+- Profile and login pages
+- Responsive design for desktop and mobile
+- Custom avatars and gallery support
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Getting Started
 
-## Expanding the ESLint configuration
+### Prerequisites
+- Node.js (v16 or higher recommended)
+- npm or yarn
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+### Installation
+1. Clone the repository:
+   ```sh
+   git clone https://github.com/shirshoo/RandomChat.git
+   ```
+2. Navigate to the project folder:
+   ```sh
+   cd RandomChat/client
+   ```
+3. Install dependencies:
+   ```sh
+   npm install
+   # or
+   yarn install
+   ```
+
+### Running the App
+Start the development server:
+```sh
+npm run dev
+# or
+yarn dev
+```
+The app will be available at `http://localhost:5173` (default Vite port).
+
+## Project Structure
+```
+client/
+  src/
+    assets/        # Images and static assets
+    components/    # React components
+    pages/         # Page components
+    lib/           # Utility functions
+  public/          # Public assets
+  index.html       # Main HTML file
+  package.json     # Project metadata
+  vite.config.js   # Vite configuration
+```
+
+## Customization
+- Update assets in `src/assets/` for your own branding.
+- Modify styles using Tailwind CSS classes in component files.
+
+## License
+MIT
+
+---
+Made with ❤️ by shirshoo
